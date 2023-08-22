@@ -1,0 +1,10 @@
+input_str = input("Enter a list of numbers separated by spaces: ")
+numbers = [float(x) for x in input_str.split()]
+total_sum = sum(numbers)
+average = total_sum / len(numbers)
+smallest = min(numbers)
+largest = max(numbers)
+print(f"Sum: {total_sum}")
+print(f"Average: {average}")
+print(f"Smallest element: {smallest}")
+print(f"Largest element: {largest}")
